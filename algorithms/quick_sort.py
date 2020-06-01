@@ -1,6 +1,6 @@
 """
     Quick sort with randomized pivot
-    - O(nlog(n)) for any input size n
+    - Time complexity O(nlog(n)) for any input size n
     - no worst case input
 
 """
