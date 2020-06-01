@@ -11,13 +11,13 @@ def insert_sort(to_sort):
     if not to_sort:
         return to_sort
     try:
-        len(to_sort)
+        length = len(to_sort)
     except TypeError:
         return to_sort
     if len(to_sort) == 1:
         return to_sort
 
-    for index in range(len(to_sort)):
+    for index in range(length):
 
         inserting = to_sort[index]
         inner_index = index - 1
