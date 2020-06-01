@@ -18,15 +18,14 @@ def quick_sort(to_sort):
     if len(to_sort) == 1:
         return to_sort
 
-    _quick_sort(to_sort, 0, len(to_sort) - 1)
+    return _quick_sort(to_sort, 0, len(to_sort) - 1)
 
 
 def _quick_sort(to_sort, low, high):
-    if low >= high:
-        return to_sort
-    pivot = randomize_pivot(to_sort, low, high)
-    _quick_sort(to_sort, low, pivot)
-    _quick_sort(to_sort, pivot + 1, high)
+    if low < high:
+        pivot = randomize_pivot(to_sort, low, high)
+        _quick_sort(to_sort, low, pivot)
+        _quick_sort(to_sort, pivot + 1, high)
 
 
 def randomize_pivot(to_sort, start, stop):
