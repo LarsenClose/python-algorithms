@@ -16,8 +16,8 @@ install:
   - pip install -r requirements-dev.txt codecov
 
 script:
-  - pylint dork tests
-  - flake8 dork tests
+  - pylint python-algorithms tests
+  - flake8 python-algorithms tests
   - coverage erase
   - coverage run --branch --source=algorithms -m pytest
   - coverage report -m
