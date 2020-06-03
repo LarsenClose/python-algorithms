@@ -1,8 +1,7 @@
 """
     Quick sort with randomized pivot
     - Time complexity O(nlog(n)) for any input size n
-    - no worst case input
-
+    - no worst case scenario
 """
 
 import random
