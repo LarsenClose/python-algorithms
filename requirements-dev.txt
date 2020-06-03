@@ -9,4 +9,5 @@ pytest-mock
 pytest-cov
 autopep8
 codecov
+pandas
 
