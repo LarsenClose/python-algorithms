@@ -2,8 +2,8 @@
 
 
 import unittest
-from problems import eratosthenes
 import pandas as pd
+from problems import eratosthenes
 
 
 class TestInsertSort(unittest.TestCase):
